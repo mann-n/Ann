@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Ann</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="body">
+     <div class="nav">
+               <div class="container">
+                <a href="" class="nav__logo nav__items">Ann</a>
+                <div class="nav__header">
+                    <a href="" class="nav__item nav__items" data-scroll="#can">МОГУ РЕАЛИЗОВАТЬ</a>
+                    <a href="" class="nav__item nav__items" data-scroll="#work">РАБОТАЮ С</a>
+                    <a href="" class="nav__item nav__items" data-scroll="#portfolio">ПОРТФОЛИО</a>
+                </div>
+                </div>
+            </div>
+            
+       <div class="header">
+        <div class="container">
+           <div class="header__circle"></div>
+            <div class="header__intro">
+                <div class="intro__title">Привет, меня зовут <span>Анна</span> !</div>
+                <div class="intro__subtitle">
+                    <div class="intro__subtitle-text">
+                        Я - <span>frontend</span> разработчик. Сделаю красивый, качественный лендинг, основываясь на ваших пожеланиях и идеях.
+                    </div>
+
+                </div>
+                <div class="intro__arrow-left">
+                    <img src="image/arrow-left.svg" alt="" class="arrow">
+                </div>
+                <div class="intro__arrow-right">
+                    <img src="image/arrow-right.svg" alt="" class="arrow">
+                </div>
+            </div>
+        </div><!--container-->
+    </div><!--header-->
+  <div class="can" id="can">
+        <div class="container">
+           <div class="can__circle"></div>
+            <div class="can__title">МОГУ РЕАЛИЗОВАТЬ</div>
+
+            <div class="can__slider">
+              <div class="can__slider-intro">
+              
+              <div class="slider__item active">
+                <img src="image/slider/web.png" alt="" class="slider__img">
+                 <div class="slider__intro">
+                     <div class="slider__title">Лендинг</div>
+                      <div class="slider__text">
+                          Одностраничный сайт-реклама, который поможет привлечь новых клиентов
+                      </div>
+                  </div>
+              </div>
+              <div class="slider__item">
+                <img src="image/slider/adaptive.png" alt="" class="slider__img">
+                 <div class="slider__intro">
+                     <div class="slider__title">Адаптивная вёрстка</div>
+                      <div class="slider__text">
+                          Сайт будет подстраиваться под устройство с любым размером
+                      </div>
+                  </div>
+              </div>
+              <div class="slider__item">
+                <img src="image/slider/modal.png" alt="" class="slider__img">
+                 <div class="slider__intro">
+                     <div class="slider__title">Модальные окна</div>
+                      <div class="slider__btn">
+                          <button class="slider__button" id="open-modal-btn">Пример...</button>
+                      </div>
+                 </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__img">
+                    <div class="slider__img-intro">
+                        <img src="image/slider/animation1.png" alt="" class="slider__img-item-1">
+                        <img src="image/slider/animation2.png" alt="" class="slider__img-item-2">
+                        <img src="image/slider/animation3.png" alt="" class="slider__img-item-3">
+                    </div>
+                </div>
+                 <div class="slider__intro">
+                     <div class="slider__title">Анимация</div>
+                      <div class="slider__text">
+                          Создаю анимации на JavaScript и CSS
+                      </div>
+                 </div>
+              </div>
+
+                </div>
+                
+                <div class="next">
+                    <div class="next__item"></div>
+                    <div class="next__item"></div>
+                </div>
+                
+            </div>
+        </div><!--container-->
+    </div><!--can-->
+    
+    <div class="modal" id="my-modal">
+        <div class="modal__box">
+          <button class="modal__close" id="close-my-modal-btn">
+              <img class="modal__img" src="image/close.svg" alt="">
+          </button>
+           <div class="modal__intro">
+                <div class="modal__text">
+                           <div class="modal__text-item">Имя</div>
+                           <div class="modal__text-item">Телефон</div>
+                           <div class="modal__text-item">Почта</div>
+                           <div class="modal__text-item">Ваша идея</div>
+                </div>
+                     <div class="modal__form">
+                       <input type="text" class="modal__form-item" placeholder="Анна">
+                       <input type="tel" class="modal__form-item" placeholder="+7ххххххххх">
+                       <input type="email" class="modal__form-item" placeholder="anna.zadvornova.18@bk.ru">
+                       <div class="modal__idea-item">
+                       <textarea type="file" class="modal__form-idea" placeholder="Постарайтесь описать свою идею как можно подробнее"></textarea>
+                       </div>
+                   </div>
+               </div><!--modal__intro-->
+               <button class="modal__button">Отправить</button>
+        </div><!--modal__box-->
+    </div><!--modal-->
+    
+    <div class="work" id="work">
+        <div class="container">
+                <div class="work__arrow-right">
+                    <img src="image/arrow-right-can.svg" alt="" class="arrow">
+                </div>
+            <div class="work__title">РАБОТАЮ С</div>
+            <div class="work__intro">
+               <div class="works">
+                <div class="work__item">
+                    <img src="image/work/html.svg" alt="" class="work__item-img">
+                    <div class="work__item-text">HTML</div>
+                </div>
+                <div class="work__item">
+                    <img src="image/work/css.svg" alt="" class="work__item-img">
+                     <div class="work__item-text">css</div>
+                </div>
+                <div class="work__item">
+                    <img src="image/work/js.svg" alt="" class="work__item-img">
+                     <div class="work__item-text">js</div>
+                </div>
+                </div>
+                <div class="works">
+                <div class="work__item">
+                    <img src="image/work/vs.svg" alt="" class="work__item-img">
+                     <div class="work__item-text">VS Code</div>
+                </div>
+                <div class="work__item">
+                    <img src="image/work/figma.svg" alt="" class="work__item-img">
+                     <div class="work__item-text">figma</div>
+                </div>
+                </div>
+            </div>
+                <div class="work__arrow-left">
+                    <img src="image/arrow-left-work.svg" alt="" class="arrow">
+                </div>
+        </div><!--container-->
+    </div><!--work-->
+    
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+           <div class="portfolio__circle"></div>
+            <div class="portfolio__title">портфолио</div>
+         <div class="portfolio__inner">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="portfolio__item">
+                          <a class="portfolio__item-btn" href="https://mann-n.github.io/lush/" target="_blank">
+                               <button class="portfolio__item-button">Перейти</button>
+                          </a>
+                            <img src="image/portfolio/1.png" alt="" class="portfolio__item-img">
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="portfolio__item">
+                          <a class="portfolio__item-btn" href="https://mann-n.github.io/vitruvian/" target="_blank">
+                               <button class="portfolio__item-button">Перейти</button>
+                          </a>
+                            <img src="image/portfolio/5.png" alt="" class="portfolio__item-img">
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="portfolio__item">
+                          <a class="portfolio__item-btn" href="https://mann-n.github.io/BreathNatureal/" target="_blank">
+                               <button class="portfolio__item-button">Перейти</button>
+                          </a>
+                            <img src="image/portfolio/3.png" alt="" class="portfolio__item-img">
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="portfolio__item">
+                          <a class="portfolio__item-btn" href="https://mann-n.github.io/best/" target="_blank">
+                               <button class="portfolio__item-button">Перейти</button>
+                          </a>
+                            <img src="image/portfolio/4.png" alt="" class="portfolio__item-img">
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="portfolio__item">
+                        <a class="portfolio__item-btn" href="https://solun-n.github.io/chemistry/" target="_blank">
+                             <button class="portfolio__item-button">Перейти</button>
+                        </a>
+                          <img src="image/portfolio/6.png" alt="" class="portfolio__item-img">
+                      </div>
+                </div>
+                  <div class="swiper-slide">
+                      <div class="portfolio__item-2">
+                           <div class="portfolio__item-btn portfolio__item-btn-2">
+                               <button class="portfolio__item-button">Скоро</button>
+                           </div>
+                        </div>
+                  </div>
+                </div>
+          </div>
+            
+            <div class="portfolio__navigation">
+                <button class="portfolio__btn portfolio__btn-prev">
+                    <img src="image/arrow-prev.svg" alt="">
+                </button>
+                <button class="portfolio__btn portfolio__btn-next">
+                    <img src="image/arrow-next.svg" alt="">
+                </button>
+            </div>
+            
+           
+            
+         </div><!--portfolio__inner-->      
+            
+    <div class="footer">
+        <div class="container">
+           <div class="footer__intro">
+            <div class="footer__title">Ann<span>frontend developer</span></div>
+            <div class="footer__nav">
+                <a href="" class="footer__nav-item" data-scroll="#can">МОГУ РЕАЛИЗОВАТЬ</a>
+                <a href="" class="footer__nav-item" data-scroll="#work">РАБОТАЮ С</a>
+                <a href="" class="footer__nav-item" data-scroll="#portfolio">ПОРТФОЛИО</a>
+            </div>
+            </div>
+        </div><!--container-->
+    </div><!--footer-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
